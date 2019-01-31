@@ -55,7 +55,7 @@ See [Selecting Subsets of Data in Pandas](https://medium.com/dunder-data/selecti
   # Note that slope is dimensionless for this case, but not in general!
   # For the general case we can attach the correct units to slope.
   slope = slope * y.units/x.units
-
+  print(intercept,slope)
   # Now create a figure and plot the data and the line from the linear regression.
   fig, ax = plt.subplots()
   # plot the data as red circles
@@ -85,7 +85,7 @@ Figure 1: Captions are very important for figures. Captions go below figures.
 Equations can be copied directly from the lab manual by clicking on the equation and requesting that it be displayed in Latex. Below is equation 2 from the [Laboratory Manual](https://monroews.github.io/EnvEngLabTextbook/Laboratory_Measurements/Laboratory_Measurements.html)
 
 
-$$A=\log \left(\frac{P_{o} }{P} \right)$$
+$$Measured\,\,Concentration = 2(Standard)-1$$
 
 
 # Assignment
